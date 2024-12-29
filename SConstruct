@@ -5,8 +5,8 @@ import sys
 from methods import print_error
 
 
-libname = "EXTENSION-NAME"
-projectdir = "demo"
+libname = "metest"
+projectdir = "game"
 
 localEnv = Environment(tools=["default"], PLATFORM="")
 

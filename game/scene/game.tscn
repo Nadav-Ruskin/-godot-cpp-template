@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://dqbnmroweedg0"]
+
+[ext_resource type="Texture2D" uid="uid://c1muqyfxokfrr" path="res://asset/image/circle.png" id="1_d861f"]
+[ext_resource type="Texture2D" uid="uid://nr611xhcb6ux" path="res://asset/image/square.png" id="2_gahyx"]
+[ext_resource type="Texture2D" uid="uid://bwpk2mlgtircr" path="res://asset/image/triangle.png" id="3_34tpt"]
+[ext_resource type="PackedScene" uid="uid://cmb517qgatn42" path="res://scene/sign.tscn" id="4_j07md"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Circle" type="Sprite2D" parent="."]
+position = Vector2(136, 106)
+texture = ExtResource("1_d861f")
+
+[node name="Square" type="Sprite2D" parent="."]
+position = Vector2(419, 116)
+texture = ExtResource("2_gahyx")
+
+[node name="Triangle" type="Sprite2D" parent="."]
+position = Vector2(633, 104)
+texture = ExtResource("3_34tpt")
+
+[node name="Sign" parent="." instance=ExtResource("4_j07md")]

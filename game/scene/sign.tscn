@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmb517qgatn42"]
+
+[ext_resource type="Texture2D" uid="uid://b4texc6ixo1ji" path="res://asset/image/sign.png" id="1_ik0i6"]
+
+[node name="Sign" type="Sprite2D"]
+position = Vector2(441, 348)
+texture = ExtResource("1_ik0i6")
